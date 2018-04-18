@@ -93,4 +93,3 @@ $sql_details_doc_result=mysqli_query($conn, $sql_details_doc);
 $sql_details_doc_result_row = mysqli_fetch_assoc($sql_details_doc_result);
 		}
 return $doc_row;
-}
